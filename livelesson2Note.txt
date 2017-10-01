@@ -1,0 +1,25 @@
+##################################################################
+# Lesson 2: Getting Started with Git
+# Committing in Git
+#
+#
+##################################################################
+
+git init Livelesson2
+cd Livelesson2
+git status
+
+ll
+
+touch index.hmtl
+
+git status
+# add the files
+git add .  # all the files
+
+git add index.html
+
+# add another file
+touch index.css
+
+
