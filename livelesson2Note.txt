@@ -1,3 +1,4 @@
+
 ##################################################################
 # Lesson 2: Getting Started with Git
 # Committing in Git
@@ -29,4 +30,22 @@ git status
 
 git commit -m "Added home page, css and notes files"
 
+
+###############################################
+# Git log for viewing history
+##############################################
+git log    #history
+git log --oneline
+git log --oneline --decorate
+git lg # This is the alias we created before.
+
+
+# check for status - takes more space.
+git status
+
+# using git s alias, red files are not staged adnd ?? means are not 
+git s
+git add ab*
+
+git add .
 
