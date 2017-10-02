@@ -22,4 +22,11 @@ git add index.html
 # add another file
 touch index.css
 
+# check the status
+git status
+
+# give the message.
+
+git commit -m "Added home page, css and notes files"
+
 
